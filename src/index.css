@@ -1,0 +1,9 @@
+/* Correct order: @import must come before @tailwind directives */
+
+/* Import FontAwesome first */
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Then add Tailwind's directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
